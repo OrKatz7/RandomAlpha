@@ -55,12 +55,22 @@ class Wids2021:
     n_calls = 100
 ```` 
 
-7. Results:
+## Classification Results:
 
 | Dataset | AUC - Baseline | AUC - rnd_split (Q1) | AUC - rnd_splt_w_th(Q3) |
 | --------------- | --------------- | --------------- | --------------- |
 | music | 0.892 | 0.897 | **0.899** |
 | ionosphere | 0.919| 0.899 |  **0.935** |
 | santander_customer_sat | 0.821 | 0.82 | **0.824** |
-| Wids | 0.812 | 0.815 | 0.821 |
+| Wids | 0.812 | 0.815 | **0.821** |
 | fetal_health | 0.908 | **0.937** |  **0.937** |
+
+## Regression Results:
+
+| Dataset |  MSE - Baseline |  MSE - rnd_split (Q1) |  MSE - rnd_splt_w_th(Q3) |
+| --------------- | --------------- | --------------- | --------------- |
+| Santander | 58.041 | 57.487 | **57.185** |
+| California | 0.004 | 0.004 |  **0.399** |
+| Wine | 0.479 | 0.425 | **0.412** |
+| Medical premium | 0.085 | 0.087 | **0.081** |
+| Avocado | 0.076 | 0.076 |  **0.074** |
