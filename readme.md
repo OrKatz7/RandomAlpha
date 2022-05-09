@@ -1,4 +1,4 @@
-# Rnadom Alpha for Decision Tree
+# Random Alpha for Decision Tree
 This repository represents open-source research developed by [Ofir Arbili](https://www.linkedin.com/in/ofir-arbili-82375179/?originalSubdomain=il/), [Or Katz](https://www.linkedin.com/in/or-katz-9ba885114/)
 
 # TL;DR
