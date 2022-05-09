@@ -66,4 +66,6 @@ class Wids2021:
 | Medical premium | 0.085 | 0.087 | **0.081** |
 | Avocado | 0.076 | 0.076 |  **0.074** |
 
+## SA
+![alt text](https://github.com/OrKatz7/RandomAlpha/blob/main/docs/Wids_SA.png)
 
