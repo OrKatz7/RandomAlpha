@@ -1,5 +1,5 @@
 # Rnadom Alpha for Decision Tree
-This repository represents open-source research developed by [Ofir Arbili](https://www.linkedin.com/in/or-katz-9ba885114/), [Or Katz](https://www.linkedin.com/in/or-katz-9ba885114/) ,  for the ML cuorse in BGU.
+This repository represents open-source research developed by [Ofir Arbili](https://www.linkedin.com/in/ofir-arbili-82375179/?originalSubdomain=il/), [Or Katz](https://www.linkedin.com/in/or-katz-9ba885114/) ,  for the ML cuorse in BGU.
 
 # TL;DR
 In this project, a random function is added to the Decision Tree split function during inference in order to improve decision tree accuracy.
