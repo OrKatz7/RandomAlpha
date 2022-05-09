@@ -11,7 +11,7 @@ Five regression datasets and five classification datasets were used to test the 
 ## Input and Output data
 download the data from https://drive.google.com/drive/folders/1IlAjfCeoYZP0Nh9m3Dcuna8dIOo0awGO?usp=sharing
 
-## Train + Inferance
+## Train + Inference
 1. run Q1_2/main.ipynb
 2. run Q3/main.ipynb
 3. run eval.ipynb
