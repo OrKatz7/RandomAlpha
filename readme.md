@@ -8,7 +8,7 @@ In the first part, the classification decision tree split function changed such 
 The third part adds additional condition to the first and second part. The random split condition should be used only when the feature value is at most x percent higher or lower than the split value.  The main concept of this addition is to use the random function only when the feature is close to the node condition threshold to generate more accurate “soft split”.
 Five regression datasets and five classification datasets were used to test the modified Decision Tree algorithms. In our study, we analyzed diversified datasets related to healthcare, economics, and signal processing. Our results in parts 1 and 2 indicated modest improvement. Part 3 of the study showed constant improvements but would vanish if other more complicated tree algorithms were used instead of the Decision Tree algorithm.
 
-## input and output data
+## Input and Output data
 download the data from https://drive.google.com/drive/folders/1IlAjfCeoYZP0Nh9m3Dcuna8dIOo0awGO?usp=sharing
 
 ## Train + Inferance
