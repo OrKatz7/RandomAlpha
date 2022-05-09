@@ -1,20 +1,11 @@
-Or & Ofir
-
-output + input data -> https://drive.google.com/drive/folders/1IlAjfCeoYZP0Nh9m3Dcuna8dIOo0awGO?usp=sharing
-
-# 1st place solution don't stop until you drop
+# Rnadom Alpha for Decision Tree
 This repository represents open-source research developed by [Ofir Arbili](https://www.linkedin.com/in/or-katz-9ba885114/), [Or Katz](https://www.linkedin.com/in/or-katz-9ba885114/) ,  for the ML cuorse in BGU.
 
 # TL;DR
-
 In this project, a random function is added to the Decision Tree split function during inference in order to improve decision tree accuracy.
-
 The work is divided into three parts:
-
 In the first part, the classification decision tree split function changed such that at each split, there will be an alpha probability (e.g., alpha=10%) of being routed in the opposite direction to what the condition indicates, and a 1-alpha probability (i.e., 1-alpha=90%) of being routed according to the condition. The modified prediction algorithm is also run n times for each sample, and the probability vectors are averaged to provide a final prediction. The second part make the same modification but to Decision tree regressor.
-
 The third part adds additional condition to the first and second part. The random split condition should be used only when the feature value is at most x percent higher or lower than the split value.  The main concept of this addition is to use the random function only when the feature is close to the node condition threshold to generate more accurate “soft split”.
-
 Five regression datasets and five classification datasets were used to test the modified Decision Tree algorithms. In our study, we analyzed diversified datasets related to healthcare, economics, and signal processing. Our results in parts 1 and 2 indicated modest improvement. Part 3 of the study showed constant improvements but would vanish if other more complicated tree algorithms were used instead of the Decision Tree algorithm.
 
 ## input and output data
