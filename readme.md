@@ -66,6 +66,12 @@ class Wids2021:
 | Medical premium | 0.085 | 0.087 | **0.081** |
 | Avocado | 0.076 | 0.076 |  **0.074** |
 
-## SA
+## Sensitivity Analysis
+Our sensitivity analysis was performed using Bayesian optimization when we defined the search sword as 2 parameters in part 1 and 2 (alpha and N) and 3 parameters in part 3 (alpha, N, and threshold).This method produces better results than fixing variables and attempting to optimize them separately. We used SKOPT to minimize MSE in the regression task and to minimize 1-AUC in the classification task.
+
+example:
 ![alt text](https://github.com/OrKatz7/RandomAlpha/blob/main/docs/Wids_SA.png)
+
+## Conclusion
+
 
